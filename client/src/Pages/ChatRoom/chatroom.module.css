@@ -1,0 +1,131 @@
+.cnt{
+    background-image: linear-gradient(135deg, #d0dbe5 0%, #b0b3e3 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width:50%;
+    height: 80%;
+  
+    border-radius: 13px ;
+    /* background-color: #b0b3e3; */
+    background-color: #eaeaea;
+    position: relative;
+}
+
+.heading{
+    text-align: center;
+    padding-top: 0.5rem;
+    background-color: #ffffff;
+    /* padding: 10px 0 0; */
+    font-size: 22px;
+    font-weight: 600;
+    font-style: oblique;
+    /* height: 3rem; */
+    border-radius: 13px 13px 0 0;
+}
+.send{
+    width:100%;
+    height: 100%;
+    background-color: #8ccc93;
+    border-radius: 50%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 3rem;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 13px 13px;
+}
+
+.btn{
+    width: 25%;
+    height: 65%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.input{
+    width: 85%;
+    height: 64%;
+    border: none;
+    padding-left: 10%;
+}
+
+.input:focus{
+    outline: none;
+}
+
+.msg_display{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    /* width: 80%; */
+    padding: 5px;
+}
+
+.msg_display span{
+    display: inline-block;
+    overflow-wrap: anywhere;
+    /* background-color: #408eea; */
+    padding: 5px 15px;
+    border-radius: 7px;
+}
+
+.msg_cntnr{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    padding: 1rem;
+    /* overflow-y: scroll;
+    max-height: 27rem; */
+    height: 29rem;
+    overflow-x: auto;
+}
+
+.top_header{
+    background-color: #ffffff;
+    border-radius: 13px 13px 0 0;
+    text-align: center;
+    height: 4rem;
+}
+
+.top_header h3{
+    font-weight: 500;
+}
+
+.right{
+  
+    align-items: flex-end;
+}
+
+.left{
+   
+    align-items: flex-start;
+}
+
+.blue{
+    background-color: #408eea;
+}
+
+.white{
+    background-color: #ffffff;
+}
+
+.display_name{
+    display: inline;
+}
+
+.disp_none{
+    display: none;
+}
